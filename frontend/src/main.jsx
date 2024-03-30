@@ -15,10 +15,11 @@ import {
   Login,
   Signup,
   Dashboard,
-  AddStudent
+  
 } from "./routes";
 
 import "./index.css";
+import AddStudent from "./routes/AddStudent";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,7 +28,7 @@ const router = createBrowserRouter(
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<Signup />} />
       <Route path="dashboard" element={<Dashboard />} />
-      <Route path="addstudent" element={<AddStudent />} />
+      <Route path="addstudent" element={<AddStudent/>} />
     </Route>
   )
 );
