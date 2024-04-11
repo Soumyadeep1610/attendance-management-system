@@ -15,11 +15,15 @@ import {
   Login,
   Signup,
   Dashboard,
-  
+  AddStudent,
+  Profile,
+  Students,
+  Teachers,
+  AllUsers,
 } from "./routes";
 
 import "./index.css";
-import AddStudent from "./routes/AddStudent";
+import Attendance from "./routes/Attendance";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,7 +32,12 @@ const router = createBrowserRouter(
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<Signup />} />
       <Route path="dashboard" element={<Dashboard />} />
-      <Route path="addstudent" element={<AddStudent/>} />
+      <Route path="addstudent" element={<AddStudent />} />
+      <Route path="profile" element={<Profile />} />
+      <Route path="attendance" element={<Attendance />} />
+      <Route path="students" element={<Students />} />
+      <Route path="teachers" element={<Teachers />} />
+      <Route path="allusers" element={<AllUsers />} />
     </Route>
   )
 );
