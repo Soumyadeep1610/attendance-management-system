@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { InputBox } from "../components";
-import Images from "../assets/images";
+import Images from "../assests/images";
 
 export default function Signup() {
   return (
