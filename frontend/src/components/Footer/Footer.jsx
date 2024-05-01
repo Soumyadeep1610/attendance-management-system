@@ -42,7 +42,7 @@ export default function Footer() {
               <li className="p-5">
                 <Link
                   className="font-medium text-gray-600 hover:text-gray-700"
-                  to="/"
+                  to="https://www.sittechno.org/contact-us-5e4f8f9bd01ee.html"
                 >
                   Contact Us
                 </Link>
@@ -52,7 +52,7 @@ export default function Footer() {
           <div className="w-auto p-8">
             <div className="-m-1.5 flex flex-wrap">
               <div className="w-auto p-1.5">
-                <Link to="/">
+                <Link to="https://www.facebook.com/sittechno.org/">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                     <svg
                       width="8"

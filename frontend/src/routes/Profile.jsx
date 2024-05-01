@@ -1,7 +1,7 @@
 
 import { Star, ChevronDown } from 'lucide-react'
 
-export  const  Profile = () => {
+export default function  Profile  ()  {
   return (
     <section className="overflow-hidden">
       <div className="mx-auto max-w-5xl px-5 py-24">
