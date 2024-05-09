@@ -24,6 +24,8 @@ import {
 
 import "./index.css";
 import Attendance from "./routes/Attendance";
+import MySubjects from "./routes/MySubjects";
+import Schedule from "./routes/Schedule";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -38,6 +40,8 @@ const router = createBrowserRouter(
       <Route path="students" element={<Students />} />
       <Route path="teachers" element={<Teachers />} />
       <Route path="allusers" element={<AllUsers />} />
+      <Route path="mysubjects" element={<MySubjects />} />
+      <Route path="schedule" element={<Schedule />} />
     </Route>
   )
 );

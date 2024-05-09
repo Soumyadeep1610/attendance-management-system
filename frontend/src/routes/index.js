@@ -9,6 +9,8 @@ import Profile from "./Profile";
 import { default as Students } from "./Students";
 import { default as Teachers } from "./Teachers";
 import { default as AllUsers } from "./AllUsers";
+import MySubjects from "./MySubjects";
+import Schedule from "./Schedule";
 
 export {
   Root,
@@ -22,4 +24,6 @@ export {
   Students,
   Teachers,
   AllUsers,
+  MySubjects,
+  Schedule
 };
