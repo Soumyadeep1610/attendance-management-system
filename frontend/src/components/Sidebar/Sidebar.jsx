@@ -14,7 +14,7 @@ export default function Sidebar() {
       <div className="mt-6 flex flex-1 flex-col justify-between">
         <nav className="-mx-3 space-y-6 ">
           <div className="space-y-3 ">
-            <label className="px-3 text-xs font-semibold uppercase text-gray-900">
+            <label className="px-3 text-xs font-semibold uppercase text-purple-950">
               analytics
             </label>
             <Link
@@ -22,18 +22,18 @@ export default function Sidebar() {
               to="#"
             >
               <BarChart className="h-5 w-5" aria-hidden="true" />
-              <span className="mx-2 text-sm font-medium">Dashboard</span>
+              <span className="mx-2 text-sm font-medium text-fuchsia-950">Dashboard</span>
             </Link>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
               to="/attendance"
             >
               <Wallet className="h-5 w-5" aria-hidden="true" />
-              <span className="mx-2 text-sm font-medium">Attendance</span>
+              <span className="mx-2 text-sm font-medium text-fuchsia-950">Attendance</span>
             </Link>
           </div>
           <div className="space-y-3 ">
-            <label className="px-3 text-xs font-semibold uppercase text-gray-900">
+            <label className="px-3 text-xs font-semibold uppercase text-purple-950">
               content
             </label>
             <Link
@@ -41,34 +41,34 @@ export default function Sidebar() {
               to="/students"
             >
               <Newspaper className="h-5 w-5" aria-hidden="true" />
-              <span className="mx-2 text-sm font-medium">Students</span>
+              <span className="mx-2 text-sm font-medium text-fuchsia-950">Students</span>
             </Link>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
               to="/teachers"
             >
               <BellRing className="h-5 w-5" aria-hidden="true" />
-              <span className="mx-2 text-sm font-medium">Teachers</span>
+              <span className="mx-2 text-sm font-medium text-fuchsia-950">Teachers</span>
             </Link>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
               to="/allusers"
             >
               <Paperclip className="h-5 w-5" aria-hidden="true" />
-              <span className="mx-2 text-sm font-medium">All Users</span>
+              <span className="mx-2 text-sm font-medium text-fuchsia-950">All Users</span>
             </Link>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
               to="/mysubjects"
             >
               <Newspaper className="h-5 w-5" aria-hidden="true" />
-              <span className="mx-2 text-sm font-medium">My Subjects</span>
+              <span className="mx-2 text-sm font-medium text-fuchsia-950">My Subjects</span>
             </Link>
            
           </div>
 
           <div className="space-y-3 ">
-            <label className="px-3 text-xs font-semibold uppercase text-gray-900">
+            <label className="px-3 text-xs font-semibold uppercase text-purple-950">
               Customization
             </label>
             <Link
@@ -76,7 +76,7 @@ export default function Sidebar() {
               to="#"
             >
               <Wrench className="h-5 w-5" aria-hidden="true" />
-              <span className="mx-2 text-sm font-medium">Setting</span>
+              <span className="mx-2 text-sm font-medium text-fuchsia-950">Setting</span>
             </Link>
           </div>
         </nav>

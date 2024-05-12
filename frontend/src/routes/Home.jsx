@@ -16,6 +16,8 @@ export default function Home() {
                 d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z"
               />
               <defs>
+             
+            
                 <linearGradient
                   id="45de2b6b-92d5-4d68-a6a0-9b9b2abad533"
                   x1="1155.49"
@@ -24,6 +26,7 @@ export default function Home() {
                   y2="474.645"
                   gradientUnits="userSpaceOnUse"
                 >
+                
                   <stop stopColor="#9089FC" />
                   <stop offset={1} stopColor="#FF80B5" />
                 </linearGradient>
@@ -32,12 +35,11 @@ export default function Home() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-purple-950 sm:text-6xl">
-              Lorem ipsum dolor sit amet consectetur dicta.
+             
+                          Siliguri Institute of Technology
             </h1>
             <p className="mt-6 text-lg leading-8 text-fuchsia-950">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+            Siliguri Institute of Technology is a private engineering and management college, established in 1999 in Siliguri, West Bengal, India. Initially the college was under North Bengal University and from the year 2004 came under the control of the newly formed West Bengal University of Technology.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-2">
               

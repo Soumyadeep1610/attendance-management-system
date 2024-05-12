@@ -29,8 +29,8 @@ export default function Table({ title = "Users", removeBtn }) {
     <section className="mx-auto w-full max-w-7xl px-4 py-4 flex flex-col">
       <div className="flex flex-col space-y-4  md:flex-row md:items-center md:justify-between md:space-y-0">
         <div>
-          <h2 className="text-lg font-semibold">{title}</h2>
-          <p className="mt-1 text-sm text-gray-700">
+          <h2 className="text-lg font-semibold text-purple-950">{title}</h2>
+          <p className="mt-1 text-sm text-fuchsia-950">
             This is a list of all {title}. You can add new students, edit or
             delete existing ones.
           </p>
@@ -40,7 +40,7 @@ export default function Table({ title = "Users", removeBtn }) {
             <button
               type="button"
               onClick={() => navigate("/addstudent")}
-              className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              className="rounded-md bg-fuchsia-950 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
               Add new {title}
             </button>
@@ -56,27 +56,27 @@ export default function Table({ title = "Users", removeBtn }) {
                   <tr>
                     <th
                       scope="col"
-                      className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
+                      className="px-4 py-3.5 text-left text-sm font-bold text-indigo-700"
                     >
                       <span>Students</span>
                     </th>
                     <th
                       scope="col"
-                      className="px-12 py-3.5 text-left text-sm font-normal text-gray-700"
+                      className="px-12 py-3.5 text-left text-sm font-bold text-indigo-700"
                     >
                       Sem
                     </th>
 
                     <th
                       scope="col"
-                      className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
+                      className="px-4 py-3.5 text-left text-sm font-bold text-indigo-700"
                     >
                       Status
                     </th>
 
                     <th
                       scope="col"
-                      className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
+                      className="px-4 py-3.5 text-left text-sm font-bold text-indigo-700"
                     >
                       Roll
                     </th>
