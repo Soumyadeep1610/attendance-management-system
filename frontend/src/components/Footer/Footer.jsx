@@ -17,7 +17,7 @@ export default function Footer() {
             <ul className="-m-5 flex flex-wrap items-center">
               <li className="p-5">
                 <Link
-                  className="font-medium text-gray-600 hover:text-gray-700"
+                  className="font-medium text-fuchsia-950 hover:text-gray-700"
                   to="/"
                 >
                   Privacy Policy
@@ -25,7 +25,7 @@ export default function Footer() {
               </li>
               <li className="p-5">
                 <Link
-                  className="font-medium text-gray-600 hover:text-gray-700"
+                  className="font-medium text-fuchsia-950 hover:text-gray-700"
                   to="/"
                 >
                   Terms of Service
@@ -33,7 +33,7 @@ export default function Footer() {
               </li>
               <li className="p-5">
                 <Link
-                  className="font-medium text-gray-600 hover:text-gray-700"
+                  className="font-medium text-fuchsia-950 hover:text-gray-700"
                   to="/"
                 >
                   Return Policy
@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li className="p-5">
                 <Link
-                  className="font-medium text-gray-600 hover:text-gray-700"
+                  className="font-medium text-fuchsia-950 hover:text-gray-700"
                   to="https://www.sittechno.org/contact-us-5e4f8f9bd01ee.html"
                 >
                   Contact Us
